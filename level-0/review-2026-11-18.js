@@ -2,9 +2,9 @@
 let a = 10;
 let b = a;
 a = 50;
-console.log(a, b); //prediction 10, 10
+console.log(a, b); //prediction 50, 10
 
-console.log("7", 3); //prediction 73
+console.log("7" + 3); //prediction 73
 console.log(7 + 3); //prediction 10
 
 let temp = 15;
