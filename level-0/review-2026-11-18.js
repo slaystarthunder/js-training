@@ -106,4 +106,10 @@ console.log(numbers);             //predict 4, 10, 15, 16
 
 
 
+console.log(2 < 3);   // prediction:  true
+console.log(3 < 3);   // prediction:  false
+console.log(4 < 3);   // prediction:  false
+console.log(3 <= 3);  // prediction:  true
+
+
 
