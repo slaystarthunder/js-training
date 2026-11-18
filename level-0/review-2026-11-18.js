@@ -91,7 +91,7 @@ console.log(fruits[fruits.length - 1]); //C: predict kiwi
 console.log(fruits[5]);                 //D: predict undefined
 
 let empty = [];
-console.log(empty.length);              //E: predict 1
+console.log(empty.length);              //E: predict 0
 
 // 3B
 
@@ -99,9 +99,9 @@ let numbers = [4, 8, 15];
 numbers.push(16);
 numbers[1] = 10;
 
-const firstItem = (array) => array[array.length - 1];
+const firstItem = (array) => array[0];
 
-console.log(firstItem(numbers)); //predict 16
+console.log(firstItem(numbers)); //predict 4
 console.log(numbers);             //predict 4, 10, 15, 16
 
 
