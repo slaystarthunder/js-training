@@ -79,5 +79,31 @@ let result = total(10,5) + 20;
 
 console.log(result); //predict 35
 
+// Part 3A
+
+let fruits = ["apple", "banana"];
+fruits.push("kiwi");
+fruits[0] = "mango";
+
+console.log(fruits.length);             //A: predict 3
+console.log(fruits[0]);                 //B: predict mango
+console.log(fruits[fruits.length - 1]); //C: predict kiwi
+console.log(fruits[5]);                 //D: predict undefined
+
+let empty = [];
+console.log(empty.length);              //E: predict 1
+
+// 3B
+
+let numbers = [4, 8, 15];
+numbers.push(16);
+numbers[1] = 10;
+
+const firstItem = (array) => array[array.length - 1];
+
+console.log(firstItem(numbers)); //predict 16
+console.log(numbers);             //predict 4, 10, 15, 16
+
+
 
 
